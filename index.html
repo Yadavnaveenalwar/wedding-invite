@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Satish ❤️ Manisha Wedding</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background: #f5efe6;
+    color: #6b1f2b;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+/* Decorative Border */
+body::before {
+    content: "";
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border: 8px double #8b2c3d;
+    pointer-events: none;
+}
+
+/* Sections */
+section {
+    padding: 80px 20px;
+    min-height: 100vh;
+    animation: fadeIn 2s ease-in-out;
+}
+
+h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-top: 40px;
+}
+
+.date {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+/* Ganesh Symbol */
+.ganesh {
+    font-size: 60px;
+    margin: 20px 0;
+}
+
+/* Divider */
+.divider {
+    width: 200px;
+    height: 3px;
+    background: #8b2c3d;
+    margin: 30px auto;
+}
+
+/* Schedule Box */
+.schedule {
+    background: #fff8f2;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(20px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+
+/* Button */
+button {
+    padding: 12px 25px;
+    background: #8b2c3d;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #5a1521;
+}
+</style>
+</head>
+
+<body>
+
+<section>
+<div class="ganesh">🕉️</div>
+<h1>Satish ❤️ Manisha</h1>
+<div class="date">Tuesday, 10 March 2026</div>
+<p>With the blessings of Lord Ganesha,<br>
+We cordially invite you to the auspicious wedding ceremony.</p>
+<div class="divider"></div>
+<p>Alwar, Rajasthan</p>
+<button onclick="scrollToNext()">View Wedding Details</button>
+</section>
+
+<section id="details">
+<h2>The Bride & Groom</h2>
+<p><strong>Groom:</strong> Satish<br>
+(Son of Mrs. Santosh Devi & Mr. Jagdish Prasad Yadav)</p>
+
+<p><strong>Bride:</strong> Manisha<br>
+(Daughter of Mrs. Nihal Devi & Mr. Suberam Yadav)</p>
+
+<div class="divider"></div>
+
+<h2>Hosted By</h2>
+<p>
+Harisingh Yadav<br>
+Tarachand Yadav<br>
+Jagdish Prasad (NSG Officer)<br>
+Kailash chand (NSG Officer)
+</p>
+</section>
+
+<section>
+<h2>Wedding Schedule</h2>
+
+<div class="schedule">
+<h3>Sunday, 08 March 2026</h3>
+<p>Engagement – 3:15 PM<br>
+Mehendi – 4:15 PM<br>
+Pre-Wedding Ritual – 6:15 PM</p>
+
+<h3>Monday, 09 March 2026</h3>
+<p>Ladies Sangeet – 11:15 AM<br>
+Traditional Ceremony – 4:15 PM</p>
+
+<h3>Tuesday, 10 March 2026</h3>
+<p>Ghudchadi – 3:15 PM<br>
+Baraat Departure – 4:15 PM</p>
+</div>
+
+<div class="divider"></div>
+
+<p>Village: Kajalpur, Yadav bas<br>
+Alwar (Rajasthan)</p>
+
+<p>Contact:<br>
+8470063220<br>
+8527426408<br>
+9001483681<br>
+7742143539</p>
+
+</section>
+
+<script>
+function scrollToNext() {
+    document.getElementById("details").scrollIntoView({behavior: "smooth"});
+}
+</script>
+
+</body>
+  </html>
